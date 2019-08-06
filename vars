@@ -1,0 +1,12 @@
+
+# These are the default values for fields
+# which will be placed in the certificate.
+# Don't leave any of these fields blank.
+export KEY_ORG="XYZ Corp"
+export KEY_DEPT="Example dept"
+# warning: spaces don't work in .conf file name
+
+# If changing this, edit server/staff.conf
+## export KEY_SIZE=2048
+
+## export PATH=${PATH}:/usr/share/doc/openvpn/examples/easy-rsa/1.0
